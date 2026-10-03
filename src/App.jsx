@@ -8,7 +8,11 @@ import { useState, useEffect } from 'react';
 
 function ScrollToTop() {
   const { pathname } = useLocation();
-  useEffect(() => { window.scrollTo(0, 0); }, [pathname]);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
   return null;
 }
 
@@ -32,20 +36,50 @@ function App() {
   };
 
   return (
-    <Router>
-      <ScrollToTop />
-      <div className="flex flex-col min-h-screen">
-        <Header compareCount={compareList.length} />
-        <main className="flex-1">
-          <Routes>
-            <Route path="/" element={<Home startComparison={setCompareList} toggleCompare={toggleCompare} compareList={compareList} />} />
-            <Route path="/products" element={<Products toggleCompare={toggleCompare} compareList={compareList} />} />
-            <Route path="/compare" element={<Compare compareList={compareList} removeCompare={removeCompare} />} />
-          </Routes>
-        </main>
-        <Footer />
-      </div>
-    </Router>
+      <Router basename="/Catalago_De_Productos">
+        <ScrollToTop />
+
+        <div className="flex flex-col min-h-screen">
+          <Header compareCount={compareList.length} />
+
+          <main className="flex-1">
+            <Routes>
+              <Route
+                  path="/"
+                  element={
+                    <Home
+                        startComparison={setCompareList}
+                        toggleCompare={toggleCompare}
+                        compareList={compareList}
+                    />
+                  }
+              />
+
+              <Route
+                  path="/products"
+                  element={
+                    <Products
+                        toggleCompare={toggleCompare}
+                        compareList={compareList}
+                    />
+                  }
+              />
+
+              <Route
+                  path="/compare"
+                  element={
+                    <Compare
+                        compareList={compareList}
+                        removeCompare={removeCompare}
+                    />
+                  }
+              />
+            </Routes>
+          </main>
+
+          <Footer />
+        </div>
+      </Router>
   );
 }
 
