@@ -1,0 +1,431 @@
+{
+  "15": {
+    "price": 149,
+    "currency": "JOD",
+    "source": "Oriental Store (Jordania)",
+    "sourceUrl": "https://os-jo.com/corsair-mp600-pro-2tb-gen4-pcie-4-0-nvme-m-2-ssd-3d-tlc-nand-w-built-in-heatspreader-sequential-read-write-7000-6550-mb-s",
+    "availability": "Agotado",
+    "priceNote": "Referencia internacional en dinares jordanos. Sin existencias; envío a Guatemala no verificado.",
+    "priceStatus": "reference",
+    "updatedAt": "2 de octubre de 2026",
+    "market": "Internacional"
+  },
+  "22": {
+    "price": 289.99,
+    "currency": "USD",
+    "source": "ASUS USA",
+    "sourceUrl": "https://rog.asus.com/us/motherboards/rog-strix/rog-strix-b650e-f-gaming-wifi-model/",
+    "availability": "Consultar disponibilidad",
+    "priceNote": "Precio publicado en Estados Unidos. Envío e importación a Guatemala no incluidos.",
+    "priceStatus": "verified",
+    "updatedAt": "2 de octubre de 2026",
+    "market": "Internacional"
+  },
+  "24": {
+    "price": 3665.2,
+    "currency": "ZAR",
+    "source": "TecAfrica (Sudáfrica)",
+    "sourceUrl": "https://www.tecafrica.co.za/products/msi-pro-b660m-a-ddr4-intel-lga1700-matx-motherboard",
+    "availability": "Agotado",
+    "priceNote": "Referencia internacional en rands sudafricanos; confirmar existencias y entrega.",
+    "name": "MSI PRO B660M-A DDR4",
+    "priceStatus": "reference",
+    "updatedAt": "2 de octubre de 2026",
+    "market": "Internacional"
+  },
+  "26": {
+    "price": 2799,
+    "currency": "MXN",
+    "source": "Walmart México · GLOBEimport",
+    "sourceUrl": "https://www.walmart.com.mx/ip/lg-24gn60r-b-gaming-monitor-ultragear-24-fhd-ips-144hz-1ms-amd-freesync-premium-display-port/00880609183811",
+    "availability": "Agotado",
+    "condition": "Reacondicionado",
+    "name": "LG UltraGear 24GN60R-B (reacondicionado)",
+    "specs": {
+      "Estado": "Reacondicionado"
+    },
+    "priceNote": "Referencia de equipo reacondicionado, no nuevo.",
+    "priceStatus": "reference",
+    "updatedAt": "2 de octubre de 2026",
+    "market": "Internacional"
+  },
+  "27": {
+    "price": 871125,
+    "currency": "ARS",
+    "source": "Star Computación (Argentina)",
+    "sourceUrl": "https://www.starcomputacion.com.ar/prod/monitor-samsung-24-led-plano-gaming-odyssey-g35-7825/",
+    "availability": "Consultar disponibilidad",
+    "priceNote": "Precio al contado en pesos argentinos, obtenido de la ficha indexada. Confirmar vigencia; entrega a Guatemala no verificada.",
+    "evidence": "Ficha de tienda indexada por el buscador",
+    "priceStatus": "verified",
+    "updatedAt": "2 de octubre de 2026",
+    "market": "Internacional"
+  },
+  "29": {
+    "price": 300,
+    "currency": "USD",
+    "source": "eBay USA · javiersandoval7",
+    "sourceUrl": "https://www.ebay.com/itm/364415765425",
+    "availability": "Consultar disponibilidad",
+    "condition": "Usado",
+    "name": "Dell S2721DGF (usado)",
+    "specs": {
+      "Estado": "Usado"
+    },
+    "priceNote": "Anuncio de vendedor particular. Precio sin envío; foto del modelo, no de la unidad usada.",
+    "priceStatus": "verified",
+    "updatedAt": "2 de octubre de 2026",
+    "market": "Internacional"
+  },
+  "30": {
+    "price": 3087.85,
+    "currency": "GTQ",
+    "source": "Yaxa Guatemala",
+    "sourceUrl": "https://guatemala.yaxa.co/products/gigabyte-m27q-monitor-para-juegos-kvm-de-27-pulgadas-165hz-1440p-pantalla-ips-ss-de-2560-x-1440-tiempo-de-respuesta-de-0-5-ms-mprt-92/",
+    "availability": "Agotado",
+    "priceNote": "Precio publicado de referencia; sin existencias.",
+    "specs": {
+      "Hz": "165Hz"
+    },
+    "priceStatus": "reference",
+    "updatedAt": "2 de octubre de 2026",
+    "market": "Guatemala"
+  },
+  "31": {
+    "price": 305,
+    "currency": "GTQ",
+    "source": "Digital PC",
+    "sourceUrl": "https://digitalpc.com.gt/producto/redragon-kumara-k552-switch-rojo-espanol/",
+    "availability": "En stock",
+    "name": "Redragon Kumara K552 (español, switch rojo)",
+    "priceNote": "Precio normal. La tienda anuncia Q275 al contado.",
+    "specs": {
+      "Switch": "Rojo",
+      "Idioma": "Español"
+    },
+    "priceStatus": "verified",
+    "updatedAt": "2 de octubre de 2026",
+    "market": "Guatemala"
+  },
+  "32": {
+    "price": 7495,
+    "currency": "PHP",
+    "source": "DataBlitz (Filipinas)",
+    "sourceUrl": "https://ecommerce.datablitz.com.ph/products/corsair-k70-rgb-mk-2-mechanical-gaming-keyboard-cherry-mx-rgb-red",
+    "availability": "Consultar disponibilidad",
+    "priceNote": "Precio en pesos filipinos. Envío a Guatemala no verificado.",
+    "name": "Corsair K70 RGB MK.2 (Cherry MX Red)",
+    "priceStatus": "verified",
+    "updatedAt": "2 de octubre de 2026",
+    "market": "Internacional"
+  },
+  "33": {
+    "price": 172822.13,
+    "currency": "ARS",
+    "source": "FullH4rd (Argentina)",
+    "sourceUrl": "https://fullh4rd.com.ar/prod/16540/teclado-logitech-g-pro-x-mecanico-rgb-lightsync-920-009229",
+    "availability": "Agotado",
+    "priceNote": "Precio de lista en pesos argentinos. Sin existencias web ni en local.",
+    "priceStatus": "reference",
+    "updatedAt": "2 de octubre de 2026",
+    "market": "Internacional"
+  },
+  "35": {
+    "price": 59.99,
+    "currency": "USD",
+    "source": "Keychron USA",
+    "sourceUrl": "https://www.keychron.com/products/keychron-k2-wireless-mechanical-keyboard?variant=31063869653081",
+    "availability": "Consultar disponibilidad",
+    "name": "Keychron K2 V2 (RGB, Brown)",
+    "specs": {
+      "Switch": "Keychron Super Brown"
+    },
+    "priceNote": "Variante RGB Brown. Confirmar reposición; envío e importación no incluidos.",
+    "priceStatus": "verified",
+    "updatedAt": "2 de octubre de 2026",
+    "market": "Internacional"
+  },
+  "39": {
+    "price": 72.99,
+    "currency": "EUR",
+    "source": "PcComponentes (España)",
+    "sourceUrl": "https://www.pccomponentes.com/razer-deathadder-v2-raton-gaming-20000dpi",
+    "availability": "Agotado",
+    "priceStatus": "reference",
+    "updatedAt": "2 de octubre de 2026",
+    "market": "Internacional"
+  },
+  "41": {
+    "price": 91.98,
+    "currency": "EUR",
+    "source": "PcComponentes (España)",
+    "sourceUrl": "https://www.pccomponentes.com/nzxt-h510-cristal-templado-usb-31-negro-mate",
+    "availability": "Agotado",
+    "priceNote": "Precio de referencia en euros; sin fecha de reposición.",
+    "priceStatus": "reference",
+    "updatedAt": "2 de octubre de 2026",
+    "market": "Internacional"
+  },
+  "42": {
+    "price": 908.77,
+    "currency": "GTQ",
+    "source": "Xpertis GT",
+    "sourceUrl": "https://xpertisgt.com/product/case-corsair-4000d-airflow-tg-black/",
+    "availability": "Consultar disponibilidad",
+    "priceStatus": "verified",
+    "updatedAt": "2 de octubre de 2026",
+    "market": "Guatemala"
+  },
+  "43": {
+    "price": 9897,
+    "currency": "PHP",
+    "source": "Makotek (Filipinas)",
+    "sourceUrl": "https://www.makotekcomputers.com/products/lian-li-pc-o11-dynamic-dual-chamber-tempered-glass-case",
+    "availability": "Existencias limitadas",
+    "priceNote": "Precio con tarjeta. Existencias anunciadas en Davao; envío a Guatemala no verificado.",
+    "priceStatus": "verified",
+    "updatedAt": "2 de octubre de 2026",
+    "market": "Internacional"
+  },
+  "44": {
+    "price": 165.6,
+    "currency": "USD",
+    "source": "Walmart USA",
+    "sourceUrl": "https://www.walmart.com/ip/1606461017",
+    "availability": "Agotado",
+    "priceNote": "Precio de referencia de la ficha indexada; producto nuevo, sin existencias.",
+    "evidence": "Ficha de tienda indexada por el buscador",
+    "priceStatus": "reference",
+    "updatedAt": "2 de octubre de 2026",
+    "market": "Internacional"
+  },
+  "46": {
+    "price": 2896,
+    "currency": "GTQ",
+    "source": "Intelaf",
+    "sourceUrl": "https://www.intelaf.com/precios_stock_detallado/cel-sam-a54812v",
+    "availability": "Agotado",
+    "name": "Samsung Galaxy A54 (8GB / 128GB)",
+    "specs": {
+      "RAM": "8GB",
+      "Almacenamiento": "128GB"
+    },
+    "priceNote": "Precio normal de la variante verde; el color de la foto puede variar.",
+    "priceStatus": "reference",
+    "updatedAt": "2 de octubre de 2026",
+    "market": "Guatemala"
+  },
+  "47": {
+    "price": 2909,
+    "currency": "GTQ",
+    "source": "Intelaf",
+    "sourceUrl": "https://www.intelaf.com/precios_stock_detallado/cel-xi-px5p82ne",
+    "availability": "Agotado",
+    "priceNote": "Precio normal publicado; sin existencias.",
+    "name": "POCO X5 Pro 5G (8GB / 256GB)",
+    "specs": {
+      "RAM": "8GB",
+      "Almacenamiento": "256GB"
+    },
+    "priceStatus": "reference",
+    "updatedAt": "2 de octubre de 2026",
+    "market": "Guatemala"
+  },
+  "49": {
+    "price": 4495,
+    "currency": "GTQ",
+    "source": "Backfone",
+    "sourceUrl": "https://backfonegt.com/product/iphone14pro-128gb/",
+    "availability": "Consultar variante",
+    "priceNote": "Oferta en efectivo. Equipo revisado por la tienda; confirmar estado y batería.",
+    "condition": "Seminuevo",
+    "name": "iPhone 14 Pro 128GB (seminuevo)",
+    "specs": {
+      "Almacenamiento": "128GB",
+      "Estado": "Seminuevo"
+    },
+    "priceStatus": "verified",
+    "updatedAt": "2 de octubre de 2026",
+    "market": "Guatemala"
+  },
+  "51": {
+    "price": 4400,
+    "currency": "GTQ",
+    "source": "Itronics",
+    "sourceUrl": "https://itronicsgt.com/producto/ipad-air-5/",
+    "availability": "Consultar disponibilidad",
+    "name": "iPad Air 5 (64GB)",
+    "specs": {
+      "Almacenamiento": "64GB"
+    },
+    "condition": "Consultar estado",
+    "priceNote": "Variante rosa de 64GB; confirmar estado del equipo. El color de la foto puede variar.",
+    "priceStatus": "verified",
+    "updatedAt": "2 de octubre de 2026",
+    "market": "Guatemala"
+  },
+  "52": {
+    "price": 3499,
+    "currency": "GTQ",
+    "source": "Punto Naranja",
+    "sourceUrl": "https://puntonaranja.com.gt/shop/apple-ipad-10a-gen-10-9-wifi-liberado-21850",
+    "availability": "Agotado",
+    "name": "iPad 10.ª generación (64GB, Wi-Fi)",
+    "specs": {
+      "Almacenamiento": "64GB"
+    },
+    "priceNote": "La ficha indica que no está disponible para venta.",
+    "priceStatus": "reference",
+    "updatedAt": "2 de octubre de 2026",
+    "market": "Guatemala"
+  },
+  "53": {
+    "price": 3514,
+    "currency": "GTQ",
+    "source": "Yaxa Guatemala",
+    "sourceUrl": "https://guatemala.yaxa.co/products/samsung-galaxy-tab-s7-fe-2021-tablet-android-con-pantalla-de-12-4-pulgadas-wifi-64gb-s-pen-incluida-bateria-de-larga-duracion-potente",
+    "availability": "En stock",
+    "name": "Galaxy Tab S7 FE (64GB, Wi-Fi)",
+    "priceNote": "Importado. Variante plateada; confirmar plazo de entrega. El color de la foto puede variar.",
+    "priceStatus": "verified",
+    "updatedAt": "2 de octubre de 2026",
+    "market": "Guatemala"
+  },
+  "54": {
+    "price": 2697,
+    "currency": "GTQ",
+    "source": "TERA",
+    "sourceUrl": "https://www.tera.com.gt/products/tablet-samsung-galaxy-x200-a8-64gb-10-5-plateado-sm-x200",
+    "availability": "En stock",
+    "name": "Samsung Galaxy Tab A8 (64GB, Wi-Fi)",
+    "specs": {
+      "Almacenamiento": "64GB"
+    },
+    "priceNote": "Precio normal; Q2,654 en efectivo. Variante plateada; el color de la foto puede variar.",
+    "priceStatus": "verified",
+    "updatedAt": "2 de octubre de 2026",
+    "market": "Guatemala"
+  },
+  "55": {
+    "price": 3409,
+    "currency": "GTQ",
+    "source": "Intelaf",
+    "sourceUrl": "https://www.intelaf.com/precios_stock_detallado/mid11-xi-pd5625",
+    "availability": "Agotado",
+    "name": "Xiaomi Pad 5 (6GB / 256GB)",
+    "specs": {
+      "RAM": "6GB",
+      "Almacenamiento": "256GB"
+    },
+    "priceNote": "Precio normal de la ficha indexada; sin existencias. Confirmar vigencia en tienda.",
+    "evidence": "Ficha de tienda indexada por el buscador",
+    "priceStatus": "reference",
+    "updatedAt": "2 de octubre de 2026",
+    "market": "Guatemala"
+  },
+  "56": {
+    "price": 7299,
+    "currency": "GTQ",
+    "source": "iSmart",
+    "sourceUrl": "https://www.ismart.gt/macbook",
+    "availability": "Consultar disponibilidad",
+    "condition": "Seminuevo",
+    "name": "MacBook Air M2 13″ 256GB (seminuevo)",
+    "specs": {
+      "RAM": "Consultar con tienda",
+      "Almacenamiento": "256GB SSD",
+      "Estado": "Seminuevo"
+    },
+    "priceNote": "Oferta en efectivo sujeta a condiciones. Confirmar memoria RAM y batería.",
+    "priceStatus": "verified",
+    "updatedAt": "2 de octubre de 2026",
+    "market": "Guatemala"
+  },
+  "65": {
+    "price": 3127,
+    "currency": "GTQ",
+    "source": "Intelaf",
+    "sourceUrl": "https://www.intelaf.com/precios_stock_detallado/nin-swi-v2nr32j",
+    "availability": "Solo en tienda",
+    "name": "Nintendo Switch V2 (32GB, Joy-Con neón)",
+    "priceNote": "Precio normal; Q3,000 efectivo/ACH. Una unidad anunciada en Paseo San Sebastián; sin envío a domicilio.",
+    "priceStatus": "verified",
+    "updatedAt": "2 de octubre de 2026",
+    "market": "Guatemala"
+  },
+  "67": {
+    "price": 5200,
+    "currency": "PHP",
+    "source": "EasyPC (Filipinas)",
+    "sourceUrl": "https://easypc.com.ph/products/razer-kraken-v3-rgb-gaming-headset?variant=42466666545323",
+    "availability": "Agotado",
+    "priceNote": "Referencia en pesos filipinos; producto agotado. Envío a Guatemala no verificado.",
+    "priceStatus": "reference",
+    "updatedAt": "2 de octubre de 2026",
+    "market": "Internacional"
+  },
+  "68": {
+    "price": 699,
+    "currency": "GTQ",
+    "source": "Office Depot Guatemala",
+    "sourceUrl": "https://www.officedepot.com.gt/officedepotGuatemala/en/Aud%C3%ADfonos-on-ear/AUDIFONOS-LOGITECH-TIPO-DIADEMA-GAMING-NEGROS-G435-981-001049/p/1304000025",
+    "availability": "Consultar por ubicación",
+    "priceNote": "Precio exclusivo en línea.",
+    "priceStatus": "verified",
+    "updatedAt": "2 de octubre de 2026",
+    "market": "Guatemala"
+  },
+  "70": {
+    "price": 199.99,
+    "currency": "USD",
+    "source": "Best Buy USA",
+    "sourceUrl": "https://www.bestbuy.com/product/steelseries-arctis-nova-7-wireless-gaming-headset-for-pc-ps5-and-ps4-black/6515802",
+    "availability": "Agotado",
+    "priceNote": "Modelo 61553, primera generación. Precio de referencia sin existencias.",
+    "priceStatus": "reference",
+    "updatedAt": "2 de octubre de 2026",
+    "market": "Internacional"
+  },
+  "74": {
+    "price": 349.99,
+    "currency": "USD",
+    "source": "Walmart USA",
+    "sourceUrl": "https://www.walmart.com/ip/X-Rocker-Pro-Series-2-1-Dual-Bluetooth-and-Wireless-Audio-Console-Gaming-Chair-with-Pedestal-Black/231174458",
+    "availability": "Agotado",
+    "priceStatus": "reference",
+    "updatedAt": "2 de octubre de 2026",
+    "market": "Internacional"
+  },
+  "75": {
+    "price": 639,
+    "currency": "AUD",
+    "source": "Umart (Australia)",
+    "sourceUrl": "https://www.umart.com.au/product/autofull-c2-pink-bunny-gaming-chair-90082",
+    "availability": "Agotado",
+    "priceStatus": "reference",
+    "updatedAt": "2 de octubre de 2026",
+    "market": "Internacional"
+  },
+  "78": {
+    "price": 125,
+    "currency": "GTQ",
+    "source": "Electrónica Sigma",
+    "sourceUrl": "https://electronicasigma.com.gt/producto/modulo-wifi-bluetooth-esp32-30-pines/",
+    "availability": "En stock",
+    "name": "ESP32 NodeMCU (30 pines)",
+    "priceStatus": "verified",
+    "updatedAt": "2 de octubre de 2026",
+    "market": "Guatemala"
+  },
+  "71": {
+    "price": 5241000,
+    "currency": "PYG",
+    "source": "PY Online (Paraguay)",
+    "sourceUrl": "https://pyonline.com.py/product/illa-para-juego-razer-i-kur-rz38-02770100-r3u1-negra-13255/",
+    "availability": "Agotado",
+    "priceStatus": "reference",
+    "market": "Internacional",
+    "updatedAt": "2 de octubre de 2026",
+    "priceNote": "Referencia en guaraníes paraguayos de una ficha antigua, sin existencias. Confirmar vigencia; envío a Guatemala no verificado."
+  }
+}

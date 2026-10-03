@@ -1,0 +1,109 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #0f172a;
+  --color-card: #1e293b;
+  --color-primary: #3b82f6;
+  --color-primary-hover: #2563eb;
+  --color-muted: #94a3b8;
+  --color-border: #334155;
+  --color-success: #10b981;
+  --color-danger: #ef4444;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-background);
+    color: white;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  ::selection {
+    background-color: var(--color-primary);
+    color: white;
+  }
+}
+
+@layer components {
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    transition-property: all;
+    transition-duration: 200ms;
+    border-radius: 0.5rem;
+  }
+  
+  .btn:active {
+    transform: scale(0.95);
+  }
+  
+  .btn-primary {
+    background-color: var(--color-primary);
+    color: white;
+    box-shadow: 0 10px 15px -3px rgb(59 130 246 / 0.25);
+  }
+  
+  .btn-primary:hover {
+    background-color: var(--color-primary-hover);
+  }
+  
+  .btn-outline {
+    border: 1px solid var(--color-border);
+    background-color: transparent;
+    color: white;
+  }
+  
+  .btn-outline:hover {
+    background-color: var(--color-card);
+    border-color: var(--color-muted);
+  }
+  
+  .card-hover {
+    transition-property: all;
+    transition-duration: 300ms;
+  }
+  
+  .card-hover:hover {
+    transform: translateY(-0.25rem);
+    box-shadow: 0 20px 25px -5px rgb(59 130 246 / 0.05);
+    border-color: rgb(59 130 246 / 0.3);
+  }
+}
+
+@layer utilities {
+  .glass {
+    background-color: rgb(30 41 59 / 0.8);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--color-border);
+  }
+}
+
+@media print {
+  header, footer, button, .btn {
+    display: none !important;
+  }
+  body {
+    background-color: white !important;
+    color: black !important;
+  }
+  .bg-card, .bg-background {
+    background-color: white !important;
+    border: 1px solid #ddd !important;
+    color: black !important;
+  }
+  .text-white {
+    color: black !important;
+  }
+  .text-muted {
+    color: #555 !important;
+  }
+  * {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}

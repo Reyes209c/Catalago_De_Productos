@@ -1,0 +1,90 @@
+{
+  "6": {
+    "name": "ASUS Dual RTX 4060 OC 8GB"
+  },
+  "7": {
+    "name": "Gigabyte RX 7600 Gaming OC 8GB"
+  },
+  "8": {
+    "name": "MSI RTX 4070 Ventus 3X OC 12GB"
+  },
+  "13": {
+    "specs": {
+      "Vel. Escritura": "6300 MB/s"
+    }
+  },
+  "16": {
+    "name": "Corsair Vengeance RGB PRO 16GB DDR4 3200"
+  },
+  "18": {
+    "name": "G.Skill Trident Z5 RGB 32GB DDR5 6000"
+  },
+  "23": {
+    "name": "Gigabyte Z790 AORUS ELITE AX"
+  },
+  "25": {
+    "name": "ASUS Prime Z690-P WiFi"
+  },
+  "40": {
+    "name": "Glorious Model O (blanco mate)"
+  },
+  "45": {
+    "name": "Fractal Design Pop Air RGB (Orange Core)"
+  },
+  "48": {
+    "name": "iPhone 13 128GB (seminuevo)",
+    "condition": "Seminuevo",
+    "specs": {
+      "Estado": "Seminuevo",
+      "Almacenamiento": "128GB"
+    }
+  },
+  "50": {
+    "name": "iPhone 15 128GB (negro)"
+  },
+  "57": {
+    "name": "ASUS TUF Gaming A15 FA507NUR-AS73",
+    "specs": {
+      "Procesador": "Ryzen 7 7435HS",
+      "Gráficos": "RTX 4050",
+      "RAM": "16GB DDR5",
+      "Almacenamiento": "512GB SSD",
+      "Pantalla": "15.6 pulgadas FHD 144Hz"
+    }
+  },
+  "58": {
+    "name": "Lenovo Legion 5 82JW00Q7US",
+    "specs": {
+      "Procesador": "Ryzen 5 5600H",
+      "Gráficos": "RTX 3050 Ti",
+      "RAM": "8GB",
+      "Almacenamiento": "512GB SSD",
+      "Pantalla": "15.6 pulgadas FHD"
+    }
+  },
+  "59": {
+    "name": "HP Victus 15-fa1029nr",
+    "specs": {
+      "Gráficos": "RTX 2050 4GB",
+      "Pantalla": "15.6 pulgadas FHD 144Hz"
+    }
+  },
+  "60": {
+    "name": "Acer Nitro 5 AN515-58-525P",
+    "specs": {
+      "Procesador": "Core i5-12500H",
+      "RAM": "8GB DDR4",
+      "Pantalla": "15.6 pulgadas FHD 144Hz"
+    }
+  },
+  "72": {
+    "name": "Corsair T3 Rush (2023, gris y carbón)"
+  },
+  "73": {
+    "name": "Respawn 110 (2023, gris)",
+    "specs": {
+      "Ventajas": "Respaldo alto con soporte lumbar integrado.",
+      "Reclinación": "135 grados"
+    }
+  }
+}

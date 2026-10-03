@@ -1,0 +1,18 @@
+{
+  "provider": "https://www.exchangerate-api.com",
+  "time_last_update_utc": "Sat, 03 Oct 2026 00:02:32 +0000",
+  "base_code": "GTQ",
+  "sourceUrl": "https://open.er-api.com/v6/latest/GTQ",
+  "rates": {
+    "ARS": 199.416031,
+    "AUD": 0.188463,
+    "EUR": 0.115764,
+    "GTQ": 1,
+    "JOD": 0.092829,
+    "MXN": 2.372722,
+    "PHP": 8.220521,
+    "PYG": 764.393633,
+    "USD": 0.130929,
+    "ZAR": 2.15874
+  }
+}
