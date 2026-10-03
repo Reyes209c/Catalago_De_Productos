@@ -18,7 +18,7 @@ test('all assignment categories have multiple priced products and local images',
     assert.ok(product.price > 0, product.name);
     assert.doesNotMatch(product.name, /seminuev|reacondicionad|usado/i);
     assert.equal(product.currency, 'GTQ', product.name);
-    assert.ok(existsSync(new URL('../public' + product.image, import.meta.url)), product.name);
+    assert.ok(existsSync(new URL('../public/' + product.image.replace(/^\/+/, ''), import.meta.url)), product.name);
     assert.equal(new URL(product.sourceUrl).protocol, 'https:');
   }
 });

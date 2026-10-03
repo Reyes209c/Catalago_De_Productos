@@ -4,9 +4,10 @@ import { Link } from 'react-router-dom';
 import { X, Trophy, AlertTriangle, ArrowLeft } from 'lucide-react';
 import { generateConclusion } from '../utils/compareLogic';
 import CompareTable from '../components/CompareTable';
-import CompareScore from '../components/CompareScore';
+import { useState } from 'react';
 
 const Compare = ({ compareList, removeCompare }) => {
+  const [priority, setPriority] = useState('balanced');
   if (compareList.length === 0) {
     return (
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 text-center">
@@ -28,7 +29,7 @@ const Compare = ({ compareList, removeCompare }) => {
   const categoryMismatch = prodB && prodA.category !== prodB.category;
   let conclusion = null;
   if (prodB && !categoryMismatch) {
-    conclusion = generateConclusion(prodA, prodB);
+    conclusion = generateConclusion(prodA, prodB, priority);
   }
 
   return (
@@ -125,14 +126,35 @@ const Compare = ({ compareList, removeCompare }) => {
       {/* Comparison Body */}
       {prodB && !categoryMismatch && (
         <div className="space-y-16">
-          {Number.isFinite(conclusion.scoreA) && Number.isFinite(conclusion.scoreB) && <section>
-            <div className="flex items-center gap-3 mb-8">
-              <div className="p-2 bg-primary/10 rounded-lg"><Trophy className="w-6 h-6 text-primary" /></div>
-              <h2 className="text-2xl font-bold">Puntuación orientativa</h2>
+          <section className="space-y-6">
+            <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
+              <h2 className="text-2xl font-bold">Lo que cambia entre estos modelos</h2>
+              <label className="text-sm text-muted">Tu prioridad
+                <select value={priority} onChange={e => setPriority(e.target.value)} className="ml-3 bg-card border border-border rounded-xl p-3 text-white">
+                  <option value="balanced">Comparación general</option>
+                  <option value="budget">Ahorrar dinero</option>
+                  {conclusion.rows.filter(row => row.comparable).map(row => <option key={row.key} value={`metric:${row.key}`}>{row.key}: {row.direction === 'lower' ? 'menor' : 'mayor'} valor</option>)}
+                </select>
+              </label>
             </div>
-            <p className="text-sm text-muted mb-4">Estimaciones del catálogo; no representan benchmarks ni pruebas de laboratorio.</p>
-            <CompareScore prodA={prodA} prodB={prodB} scoreA={conclusion.scoreA} scoreB={conclusion.scoreB} />
-          </section>}
+            <div className="bg-card border border-primary/30 rounded-2xl p-6">
+              <h3 className="font-bold text-primary mb-2">Diferencia de precio</h3>
+              <p className="text-muted leading-relaxed">{conclusion.priceText}</p>
+              {conclusion.unitPrices && <p className="text-sm text-muted mt-3">Precio por GB: {prodA.name}, {formatPrice({price: conclusion.unitPrices.a, currency: 'GTQ'})}; {prodB.name}, {formatPrice({price: conclusion.unitPrices.b, currency: 'GTQ'})}. Este cálculo compara espacio y costo.</p>}
+            </div>
+            <div className="grid md:grid-cols-2 gap-4">
+              {conclusion.technical.map(item => <article key={item.title} className="bg-card border border-border rounded-2xl p-6">
+                <h3 className="font-bold mb-3">{item.title}</h3>
+                <p className="text-sm leading-relaxed text-muted">{item.detail}</p>
+                {item.meaning && <p className="text-sm leading-relaxed mt-3">{item.meaning}</p>}
+              </article>)}
+            </div>
+            {conclusion.notes.length > 0 && <div className="bg-primary/5 border border-primary/20 rounded-2xl p-6">
+              <h3 className="font-bold mb-3">Compatibilidad y uso</h3>
+              <ul className="space-y-3 text-sm text-muted leading-relaxed">{conclusion.notes.map(note => <li key={note}>{note}</li>)}</ul>
+              {['Memoria RAM', 'SSD'].includes(prodA.category) && <a href={prodA.category === 'SSD' ? 'https://www.kingston.com/en/ssd/ssd-faq' : 'https://media.kingston.com/kingston/pdf/ktc-blog-pc-performance-upgrade-vs-replace-ebook-us.pdf'} target="_blank" rel="noopener noreferrer" className="text-xs text-primary underline inline-block mt-4">Guía de compatibilidad de Kingston</a>}
+            </div>}
+          </section>
 
           <section>
             <div className="flex items-center gap-3 mb-8">
@@ -153,16 +175,16 @@ const Compare = ({ compareList, removeCompare }) => {
             
             {conclusion.winner ? (
               <div className="relative z-10">
-                <p className="text-muted text-lg mb-2">Nuestra recomendación es:</p>
+                <p className="text-muted text-lg mb-2">Para la prioridad elegida:</p>
                 <p className="text-4xl md:text-5xl font-black text-white mb-6 leading-tight">{conclusion.winner.name}</p>
                 <div className="w-16 h-1 bg-primary mb-6 rounded-full" />
-                <p className="text-xl text-muted/90 leading-relaxed max-w-3xl">"{conclusion.reason}"</p>
+                <p className="text-xl text-muted/90 leading-relaxed max-w-3xl">{conclusion.reason}</p>
               </div>
             ) : (
               <div className="relative z-10">
                 <p className="text-4xl md:text-5xl font-black text-white mb-6 leading-tight">{conclusion.title || 'Elige según tus necesidades'}</p>
                 <div className="w-16 h-1 bg-primary mb-6 rounded-full" />
-                <p className="text-xl text-muted/90 leading-relaxed max-w-3xl">"{conclusion.reason}"</p>
+                <p className="text-xl text-muted/90 leading-relaxed max-w-3xl">{conclusion.reason}</p>
               </div>
             )}
           </section>

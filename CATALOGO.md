@@ -38,3 +38,11 @@ Se agregaron 50 registros en `src/data/expandedCatalog.json`, con precio publica
 Validar la ampliación con `node --test scripts/*.test.js`.
 
 El veredicto ya no se bloquea por disponibilidad ni estado del producto. Con puntuaciones completas compara las valoraciones orientativas; sin ellas, describe la diferencia de precio sin inventar un ganador por rendimiento.
+
+## Comparador por características
+
+El análisis ahora usa las fichas técnicas de cada categoría en lugar de las puntuaciones generales del catálogo original. Normaliza unidades (TB/GB, GHz/MHz, MB/s), explica diferencias concretas, calcula diferencia de precio y sobreprecio porcentual y, en almacenamiento y RAM, costo por GB cuando existe capacidad comparable. Permite elegir presupuesto o una característica numérica específica y filtrar la tabla para mostrar solo diferencias.
+
+Se incluyen orientaciones por categoría y compatibilidad para CPU, RAM, GPU, SSD y placas. Las especificaciones no se convierten en puntuaciones de rendimiento ni FPS. Los campos faltantes se muestran como “No especificado”. El estado y disponibilidad siguen ocultos. Los enlaces de ficha y guías permiten revisar las fuentes.
+
+Pruebas adicionales: unidades equivalentes, datos faltantes, unidades de velocidad diferentes, cambio de prioridad, RAM de distintas plataformas y simetría al intercambiar productos.

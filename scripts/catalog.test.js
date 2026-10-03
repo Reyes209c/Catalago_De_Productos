@@ -48,7 +48,7 @@ test('conversion preserves source amounts and filters the converted GTQ price', 
 
 test('source status does not block an otherwise comparable catalog verdict', () => {
   const other = {...base, price: 150, name: 'B', condition: 'Usado', priceStatus: 'reference'};
-  const conclusion = generateConclusion(base, other);
+  const conclusion = generateConclusion(base, other, 'budget');
   assert.equal(conclusion.winner.name, 'A');
   assert.doesNotMatch(conclusion.reason, /disponibilidad|estado|equivalente/i);
 });

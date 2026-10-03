@@ -106,7 +106,7 @@ const Home = ({ toggleCompare, compareList, startComparison }) => {
               <Zap className="w-7 h-7 text-primary" />
             </div>
             <h3 className="text-xl font-bold mb-3">Decisiones Inteligentes</h3>
-            <p className="text-muted leading-relaxed">Analizamos especificaciones complejas y te damos un veredicto claro sobre qué producto ofrece la mejor relación calidad/precio.</p>
+            <p className="text-muted leading-relaxed">Comparamos las características, explicamos sus diferencias y te ayudamos a elegir según tu presupuesto y tus tareas.</p>
           </div>
           <div className="card-hover bg-card p-8 rounded-2xl border border-border">
             <div className="w-14 h-14 bg-cyan-500/10 rounded-2xl flex items-center justify-center mb-6">
